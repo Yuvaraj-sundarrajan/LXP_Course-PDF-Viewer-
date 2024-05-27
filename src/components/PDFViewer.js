@@ -4,7 +4,7 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchPdfRequest } from "../../actions/FetchPdfAction";
+import { fetchPdfRequest } from "../actions/FetchPdfAction";
 import { Container, Row } from "react-bootstrap";
  
 function PDFViewer(prop) {
